@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+.nav-section {
+    background: #7D9D9C;
+    padding-bottom: 80px;
+}
+
+.ooo {
+    background: #E4DCCF;
+    padding-bottom: 3000px;
+}
+
+.footer {
+    background: #576F72;
+    padding-bottom: 500px;
+}
+
+
