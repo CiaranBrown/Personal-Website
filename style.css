@@ -3,10 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+h1,
+h2,
+h3 {
+  color: #eee;
+}
+
+p {
+  color: #eee;
+}
+
+ul {
+    list-style: none;
+    color: #eee;
+}
   
 .nav-section {
     background: #7D9D9C;
-    padding-bottom: 80px;
+}
+
+#logo {
+    font-family: 'Zilla Slab', serif;
+    font-size: 30px;
+    color: #eee;
 }
 
 .ooo {
@@ -18,5 +38,12 @@
     background: #576F72;
     padding-bottom: 500px;
 }
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 60px;
+  }
 
 
