@@ -21,23 +21,30 @@ ul {
 
 .navbar {
   background: #7d9d9c;
-  height: 110px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding: 0px 30px;
+}
+
+#logo {
+  color: #eee;
+  font-size: 26px;
+  padding: 30px 0px;
+  font-family: 'Zilla Slab', serif;
 }
 
 .nav-menu {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 5px 0px 20px 0px;
+  font-size: 15px;
+  font-family: 'Merriweather', serif;;
 }
 
-#logo {
-  font-family: 'Zilla Slab', serif;
-  font-size: 30px;
-  color: #eee;
+.nav-item {
+  padding: 0px 15px;
 }
 
 .ooo {
@@ -49,3 +56,8 @@ ul {
   background: #576f72;
   padding-bottom: 500px;
 }
+
+/* Font for titles: font-family: 'Lobster', cursive;
+
+Font for paragraphs: font-family: 'Raleway', sans-serif;
+*/
