@@ -65,11 +65,29 @@ a {
   background: #576F72;
   display: block;
   margin: auto;
-  transition: 0.6s;
+  transition: 0.5s;
 }
 
 .nav-item:hover::after {
   width: 75%;
+}
+
+@media (min-width: 600px) {
+  #logo {
+    font-size: 34px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #logo {
+    font-size: 40px;
+  }
+  .nav-menu {
+    font-size: 16px;
+  }
+  .nav-item {
+    padding: 0px 23px;
+  }
 }
 
 
