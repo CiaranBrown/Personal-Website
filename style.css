@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background: #e4dccf;
+}
+
 h1,
 h2,
 h3 {
@@ -22,6 +26,8 @@ ul {
 a {
   text-decoration: none;
 }
+
+/* Navigation Bar */
 
 .navbar {
   background: #7d9d9c;
@@ -66,10 +72,12 @@ a {
   width: 75%;
 }
 
-.ooo {
-  background: #e4dccf;
-  padding-bottom: 3000px;
-}
+
+/* Introduction Section */
+
+
+
+/* Footer Section */ 
 
 .footer {
   background: #576f72;
