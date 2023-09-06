@@ -19,6 +19,10 @@ ul {
   color: #eee;
 }
 
+a {
+  text-decoration: none;
+}
+
 .navbar {
   background: #7d9d9c;
   display: flex;
@@ -45,6 +49,21 @@ ul {
 
 .nav-item {
   padding: 0px 15px;
+  cursor: pointer;
+}
+
+.nav-item::after {
+  content: '';
+  width: 0%;
+  height: 3px;
+  background: #576F72;
+  display: block;
+  margin: auto;
+  transition: 0.6s;
+}
+
+.nav-item:hover::after {
+  width: 75%;
 }
 
 .ooo {
