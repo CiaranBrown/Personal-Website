@@ -14,8 +14,13 @@ h3 {
   color: #eee;
 }
 
+h2 {
+  font-family: 'Lobster', cursive;
+}
+
 p {
-  color: #eee;
+  color: #576F72;
+  font-family: 'Raleway', sans-serif;
 }
 
 ul {
@@ -49,27 +54,21 @@ a {
   justify-content: center;
   align-items: center;
   padding: 5px 0px 20px 0px;
-  font-size: 15px;
+  font-size: 14px;
   font-family: 'Merriweather', serif;;
 }
 
 .nav-item {
   padding: 0px 15px;
   cursor: pointer;
+  box-shadow: inset 0 3 3 0 #576F72;
+  color: #fff;
+  transition: color 1s ease-in-out, box-shadow 0.7s ease-in-out;
 }
 
-.nav-item::after {
-  content: '';
-  width: 0%;
-  height: 3px;
-  background: #576F72;
-  display: block;
-  margin: auto;
-  transition: 0.5s;
-}
-
-.nav-item:hover::after {
-  width: 75%;
+.nav-item:hover {
+  box-shadow: inset 150px 0 0 0 #576F72;
+  color: #fff;
 }
 
 @media (min-width: 600px) {
@@ -93,16 +92,61 @@ a {
 
 /* Introduction Section */
 
+.intro-section {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.intro-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 25px;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  border: #5A6B8D 3px solid;
+  box-shadow: 10px 10px 5px #ccc;
+}
+
+.intro-image2 {
+  display: block;
+  margin: auto;
+  margin-bottom: 0px 30px;
+  width: 250px;
+  height: 350px;
+  border-radius: 100px;
+  border: #5A6B8D 3px solid;
+}
+
+.center-text {
+  font-size: 28px;
+  color: #eee;
+  background-color: #5A6B8D;
+  padding: 5px;
+  font-family: 'Zilla Slab', serif;
+  border-radius: 25px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px #7d9d9c;
+}
+
+.intro-text p {
+  font-size: 14px;
+  margin: 20px 10px;
+  text-align: center;
+  letter-spacing: 1px;
+}
 
 
 /* Footer Section */ 
 
 .footer {
   background: #576f72;
+  margin-top: 100px;
   padding-bottom: 500px;
 }
-
-/* Font for titles: font-family: 'Lobster', cursive;
-
-Font for paragraphs: font-family: 'Raleway', sans-serif;
-*/
