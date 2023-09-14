@@ -256,13 +256,24 @@ strong {
 /* About Section */
 
 .about-section {
-  margin: 25px;
+  margin: 15px;
 }
 
 .about-text h2 {
   font-size: 40px;
   margin: 35px;
-  color: #7d9d9c;
+  color: #576f72;
+  text-align: center;
+  text-decoration: overline underline;
+  text-underline-offset: 15px;
+}
+
+.about-name {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+  letter-spacing: 1px;
 }
 
 .about-paras {
@@ -270,7 +281,7 @@ strong {
   padding: 20px;
   border-radius: 20px;
   font-size: 14px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 
