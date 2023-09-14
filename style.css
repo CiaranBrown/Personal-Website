@@ -34,6 +34,7 @@ a {
 }
 
 img {
+  display: block;
   width: 100%;
 }
 
@@ -108,7 +109,7 @@ strong {
 .nav-item:hover {
   box-shadow: inset 150px 0 0 0 #576f72;
   color: #fff;
-  transition: .7s linear;
+  transition: .4s linear;
 }
 
 
@@ -137,7 +138,7 @@ strong {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 30px 15px 15px 15px;
+  margin: 30px 15px 80px 15px;
 }
 
 .intro-image {
@@ -158,11 +159,11 @@ strong {
   justify-content: center;
   align-items: center;
   margin: auto;
-  margin-bottom: 25px;
   width: 290px;
   height: 280px;
   border: #5a6b8d 3px solid;
   box-shadow: 10px 10px 5px #ccc;
+  animation: 1.5s slide-left;
 }
 
 .center-text {
@@ -250,6 +251,26 @@ strong {
   .intro-text span {
     font-size: 18px;
   }
+}
+
+/* About Section */
+
+.about-section {
+  margin: 25px;
+}
+
+.about-text h2 {
+  font-size: 40px;
+  margin: 35px;
+  color: #7d9d9c;
+}
+
+.about-paras {
+  background-color: #F0EBE3;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-top: 20px;
 }
 
 
