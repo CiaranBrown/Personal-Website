@@ -150,7 +150,7 @@ strong {
   width: 290px;
   height: 280px;
   border: #5a6b8d 3px solid;
-  box-shadow: -10px 10px 5px #ccc;
+  box-shadow: -10px 10px 5px #4a5759;
   animation: 1.5s slide-right;
 }
 
@@ -162,7 +162,7 @@ strong {
   width: 290px;
   height: 280px;
   border: #5a6b8d 3px solid;
-  box-shadow: 10px 10px 5px #ccc;
+  box-shadow: 10px 10px 5px #4a5759;
   animation: 1.5s slide-left;
 }
 
@@ -171,6 +171,7 @@ strong {
   color: #eee;
   background-color: #576f72;
   padding: 5px;
+  margin: 10px;
   font-family: 'Zilla Slab', serif;
   border-radius: 50px;
   text-align: center;
@@ -200,6 +201,7 @@ strong {
   .intro-image {
     width: 300px;
     height: 290px;
+    box-shadow: -12px 12px 7px #4a5759;
   }
   .intro-text {
     margin-left: 35px;
@@ -210,11 +212,13 @@ strong {
   .intro-image {
     height: 300px;
     width: 290px;
+    box-shadow: -14px 14px 7px #4a5759;
   }
   .intro-image2 {
     display: flex;
     height: 300px;
     width: 300px;
+    box-shadow: 14px 14px 7px #4a5759;
   }
   .intro-section {
     margin: 50px;
@@ -232,11 +236,13 @@ strong {
   .intro-image {
     height: 420px;
     width: 400px;
+    box-shadow: -15px 15px 7px #4a5759;
   }
   .intro-image2 {
     display: flex;
     height: 420px;
     width: 400px;
+    box-shadow: 15px 15px 7px #4a5759;
   }
   .intro-text {
     margin: 60px;
@@ -271,6 +277,7 @@ strong {
 .about-name {
   font-size: 30px;
   font-weight: 700;
+  font-family: 'Josefin Sans', sans-serif;
   margin-bottom: 20px;
   text-align: center;
   letter-spacing: 1px;
