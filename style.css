@@ -42,7 +42,23 @@ strong {
   font-weight: 900;
 }
 
-/* Animations */
+/* Scroll Up Animation */
+
+.hide-animation-up {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateY(-2em);
+  transition: all 1.7s;
+}
+
+.show-animation-up {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+}
+
+
+/* Animations */ /*
 
 @keyframes slide-left {
   0% {
@@ -69,6 +85,7 @@ strong {
     transform: translateX(0);
   }
 }
+*/
 
 /* Navigation Bar */
 
@@ -103,7 +120,7 @@ strong {
   color: #fff;
   text-shadow: 2px 4px 6px #4a5759;
   display: inline-block;
-  animation: slide-left .7s ease forwards;
+  /* animation: slide-left .7s ease forwards; */
 }
 
 .nav-item:hover {
