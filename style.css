@@ -42,7 +42,8 @@ strong {
   font-weight: 900;
 }
 
-/* Scroll Up Animation */
+
+/* Animations */
 
 .hide-animation-up {
   opacity: 0;
@@ -56,9 +57,6 @@ strong {
   filter: blur(0);
   transform: translateY(0);
 }
-
-
-/* Animations */ /*
 
 @keyframes slide-left {
   0% {
@@ -85,7 +83,6 @@ strong {
     transform: translateX(0);
   }
 }
-*/
 
 /* Navigation Bar */
 
@@ -120,7 +117,7 @@ strong {
   color: #fff;
   text-shadow: 2px 4px 6px #4a5759;
   display: inline-block;
-  /* animation: slide-left .7s ease forwards; */
+  animation: slide-left .7s ease forwards;
 }
 
 .nav-item:hover {
@@ -167,7 +164,7 @@ strong {
   width: 290px;
   height: 280px;
   border: #5a6b8d 3px solid;
-  box-shadow: -10px 10px 5px #4a5759;
+  box-shadow: -10px 10px 9px #4a5759;
   animation: 1.5s slide-right;
 }
 
@@ -179,7 +176,7 @@ strong {
   width: 290px;
   height: 280px;
   border: #5a6b8d 3px solid;
-  box-shadow: 10px 10px 5px #4a5759;
+  box-shadow: 10px 10px 9px #4a5759;
   animation: 1.5s slide-left;
 }
 
@@ -202,7 +199,7 @@ strong {
   margin: 20px 10px;
   text-align: center;
   letter-spacing: 1px;
-  animation: slide-left 1.5s ease forwards;
+  /* animation: slide-left 1.5s ease forwards; */
 }
 
 .intro-text span {
@@ -218,7 +215,7 @@ strong {
   .intro-image {
     width: 300px;
     height: 290px;
-    box-shadow: -12px 12px 7px #4a5759;
+    box-shadow: -12px 12px 9px #4a5759;
   }
   .intro-text {
     margin-left: 35px;
@@ -229,13 +226,13 @@ strong {
   .intro-image {
     height: 300px;
     width: 290px;
-    box-shadow: -14px 14px 7px #4a5759;
+    box-shadow: -14px 14px 9px #4a5759;
   }
   .intro-image2 {
     display: flex;
     height: 300px;
     width: 300px;
-    box-shadow: 14px 14px 7px #4a5759;
+    box-shadow: 14px 14px 9px #4a5759;
   }
   .intro-section {
     margin: 50px;
@@ -253,13 +250,13 @@ strong {
   .intro-image {
     height: 420px;
     width: 400px;
-    box-shadow: -15px 15px 7px #4a5759;
+    box-shadow: -15px 15px 9px #4a5759;
   }
   .intro-image2 {
     display: flex;
     height: 420px;
     width: 400px;
-    box-shadow: 15px 15px 7px #4a5759;
+    box-shadow: 15px 15px 9px #4a5759;
   }
   .intro-text {
     margin: 60px;
@@ -306,6 +303,24 @@ strong {
   border-radius: 20px;
   font-size: 14px;
   margin-top: 10px;
+}
+
+@media (min-width: 600px) {
+  .about-section {
+    margin: 50px;
+  }
+}
+
+@media (min-width: 845px) {
+  .about-section {
+    margin: 70px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .about-section {
+    margin: 70px;
+  }
 }
 
 
