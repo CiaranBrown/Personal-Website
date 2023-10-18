@@ -48,8 +48,8 @@ strong {
 .hide-animation-up {
   opacity: 0;
   filter: blur(5px);
-  transform: translateY(-2em);
-  transition: all 1.7s;
+  transform: translateY(80%);
+  transition: all 1s;
 }
 
 .show-animation-up {
@@ -58,31 +58,33 @@ strong {
   transform: translateY(0);
 }
 
-@keyframes slide-left {
-  0% {
-    opacity: 0;
-    filter: blur(5px);
-    transform: translateX(100%);
-  }
-  100% {
-    opacity: 1;
-    filter: blur(0);
-    transform: translateX(0);
-  }
+.hide-animation-right {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
 }
 
-@keyframes slide-right {
-  0% {
-    opacity: 0;
-    filter: blur(5px);
-    transform: translateX(-100%);
-  }
-  100% {
-    opacity: 1;
-    filter: blur(0);
-    transform: translateX(0);
-  }
+.show-animation-right {
+  opacity: 1;
+  z-index: 1;
+  filter: blur(0);
+  transform: translateX(0);
 }
+
+.hide-animation-left {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(100%);
+  transition: all 1s;
+}
+
+.show-animation-left {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
 
 /* Navigation Bar */
 
@@ -117,7 +119,6 @@ strong {
   color: #fff;
   text-shadow: 2px 4px 6px #4a5759;
   display: inline-block;
-  animation: slide-left .7s ease forwards;
 }
 
 .nav-item:hover {
@@ -165,7 +166,6 @@ strong {
   height: 280px;
   border: #5a6b8d 3px solid;
   box-shadow: -10px 10px 9px #4a5759;
-  animation: 1.5s slide-right;
 }
 
 .intro-image2 {
@@ -177,7 +177,6 @@ strong {
   height: 280px;
   border: #5a6b8d 3px solid;
   box-shadow: 10px 10px 9px #4a5759;
-  animation: 1.5s slide-left;
 }
 
 .center-text {
@@ -199,7 +198,6 @@ strong {
   margin: 20px 10px;
   text-align: center;
   letter-spacing: 1px;
-  /* animation: slide-left 1.5s ease forwards; */
 }
 
 .intro-text span {
@@ -303,6 +301,17 @@ strong {
   border-radius: 20px;
   font-size: 14px;
   margin-top: 10px;
+}
+
+.about-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 25px;
+  width: 300px;
+  height: 450px;
+  border: #5a6b8d 3px solid;
 }
 
 @media (min-width: 600px) {
