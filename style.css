@@ -274,12 +274,16 @@ strong {
 /* About Section */
 
 .about-section {
-  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  margin-top: 30px;
 }
 
 .about-text h2 {
   font-size: 40px;
-  margin: 35px;
+  margin-bottom: 35px;
   color: #576f72;
   text-align: center;
   text-decoration: overline underline;
@@ -296,6 +300,7 @@ strong {
 }
 
 .about-paras {
+  max-width: 1200px;
   background-color: #F0EBE3;
   padding: 20px;
   border-radius: 20px;
@@ -303,35 +308,47 @@ strong {
   margin-top: 10px;
 }
 
+.about-images {
+  display: flex;
+  flex-direction: row;
+}
+
 .about-image {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
-  margin-top: 25px;
   width: 300px;
-  height: 450px;
+  height: 350px;
   border: #5a6b8d 3px solid;
 }
 
-@media (min-width: 600px) {
-  .about-section {
-    margin: 50px;
+.about-image2 {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 300px;
+  height: 350px;
+  border: #5a6b8d 3px solid;
+}
+
+@media (min-width: 700px) {
+  .about-image2 {
+    display: flex;
   }
 }
 
-@media (min-width: 845px) {
-  .about-section {
-    margin: 70px;
-  }
+@media (min-width: 1080px) {
+  
 }
 
-@media (min-width: 1000px) {
-  .about-section {
-    margin: 70px;
-  }
-}
 
+/* Future Section */
+
+.future-paras {
+  margin: 40px;
+}
 
 /* Footer Section */
 
