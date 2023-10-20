@@ -101,7 +101,7 @@ strong {
   font-size: 26px;
   padding: 25px 0px;
   font-family: 'Zilla Slab', serif;
-  text-shadow: 5px 5px 5px #4a5759;
+  text-shadow: 3px 3px 3px #4a5759;
 }
 
 .nav-menu {
@@ -153,7 +153,7 @@ strong {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 30px 15px 80px 15px;
+  margin: 50px 15px 80px 15px;
 }
 
 .intro-image {
@@ -209,6 +209,7 @@ strong {
   .intro-section {
     flex-direction: row;
     margin: 50px;
+    margin-bottom: 100px;
   }
   .intro-image {
     width: 300px;
@@ -234,6 +235,7 @@ strong {
   }
   .intro-section {
     margin: 50px;
+    margin-bottom: 120px;
   }
   .intro-text {
     margin: 30px;
@@ -243,7 +245,7 @@ strong {
 @media (min-width: 1400px) {
   .intro-section {
     margin: 80px;
-    margin-bottom: 125px;
+    margin-bottom: 200px;
   }
   .intro-image {
     height: 420px;
@@ -302,13 +304,15 @@ strong {
 .about-paras {
   max-width: 1200px;
   background-color: #F0EBE3;
-  padding: 20px;
+  padding: 40px;
   border-radius: 20px;
-  font-size: 14px;
+  font-size: 15px;
   margin-top: 10px;
 }
 
 .about-images {
+  margin-top: 40px;
+  margin-bottom: 100px;
   display: flex;
   flex-direction: row;
 }
@@ -319,7 +323,7 @@ strong {
   align-items: center;
   margin: auto;
   width: 300px;
-  height: 350px;
+  height: 400px;
   border: #5a6b8d 3px solid;
 }
 
@@ -329,7 +333,7 @@ strong {
   align-items: center;
   margin: auto;
   width: 300px;
-  height: 350px;
+  height: 400px;
   border: #5a6b8d 3px solid;
 }
 
@@ -339,8 +343,33 @@ strong {
   }
 }
 
-@media (min-width: 1080px) {
-  
+@media (min-width: 1000px) {
+  .about-image {
+    box-shadow: -14px 14px 9px #4a5759;
+  }
+  .about-image2 {
+    box-shadow: 14px 14px 9px #4a5759;
+  }
+}
+
+@media (min-width: 1400px) {
+  .about-section {
+    margin-bottom: 80px;
+  }
+  .about-image {
+    height: 500px;
+    width: 400px;
+    box-shadow: -15px 15px 9px #4a5759;
+  }
+  .about-image2 {
+    display: flex;
+    height: 500px;
+    width: 400px;
+    box-shadow: 15px 15px 9px #4a5759;
+  }
+  .about-images {
+    margin-bottom: 250px;
+  }
 }
 
 
