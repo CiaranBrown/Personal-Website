@@ -109,12 +109,12 @@ strong {
   justify-content: center;
   align-items: center;
   padding: 5px 0px 20px 0px;
-  font-size: 14px;
   font-family: 'Merriweather', serif;
 }
 
 .nav-item {
-  padding: 0px 25px;
+  padding: 0px 13px;
+  font-size: 12px;
   cursor: pointer;
   color: #fff;
   text-shadow: 2px 4px 6px #4a5759;
@@ -132,17 +132,33 @@ strong {
   #logo {
     font-size: 34px;
   }
+  .nav-item  {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 760px) {
+  .nav-item  {
+    font-size: 14px;
+    padding: 0px 15px;
+  }
+}
+
+@media (min-width: 1000px) {
+  #logo {
+    font-size: 36px;
+  }
 }
 
 @media (min-width: 1400px) {
   #logo {
     font-size: 40px;
   }
-  .nav-menu {
-    font-size: 16px;
+  .nav-item {
+    font-size: 15px;
   }
   .nav-item {
-    padding: 0px 30px;
+    padding: 0px 25px;
   }
 }
 
@@ -352,18 +368,29 @@ strong {
   }
 }
 
+@media (min-width: 1200px) {
+  .about-image {
+    height: 450px;
+    width: 350px;
+  }
+  .about-image2 {
+    height: 450px;
+    width: 350px;
+  }
+}
+
 @media (min-width: 1400px) {
   .about-section {
     margin-bottom: 80px;
   }
   .about-image {
-    height: 500px;
+    height: 550px;
     width: 400px;
     box-shadow: -15px 15px 9px #4a5759;
   }
   .about-image2 {
     display: flex;
-    height: 500px;
+    height: 550px;
     width: 400px;
     box-shadow: 15px 15px 9px #4a5759;
   }
@@ -431,6 +458,46 @@ strong {
 @media (min-width: 700px) {
   .future-image2 {
     display: flex;
+  }
+}
+
+@media (min-width: 1000px) {
+  .future-image {
+    box-shadow: -14px 14px 9px #4a5759;
+  }
+  .future-image2 {
+    box-shadow: 14px 14px 9px #4a5759;
+  }
+}
+
+@media (min-width: 1200px) {
+  .future-image {
+    height: 450px;
+    width: 350px;
+  }
+  .future-image2 {
+    height: 450px;
+    width: 400px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .future-section {
+    margin-bottom: 80px;
+  }
+  .future-image {
+    height: 550px;
+    width: 450px;
+    box-shadow: -15px 15px 9px #4a5759;
+  }
+  .future-image2 {
+    display: flex;
+    height: 500px;
+    width: 500px;
+    box-shadow: 15px 15px 9px #4a5759;
+  }
+  .future-images {
+    margin-bottom: 250px;
   }
 }
 
