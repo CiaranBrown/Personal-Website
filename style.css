@@ -521,6 +521,10 @@ strong {
   text-underline-offset: 15px;
 }
 
+.projects {
+  display: flex;
+  flex-direction: column;
+}
 
 .project-title {
   font-size: 18px;
@@ -595,17 +599,45 @@ strong {
   opacity: 0.5;
 }
 
-
 .project-para {
   margin-top: 20px;
   font-size: 13px;
   text-align: center;
+  margin: 20px;
+  max-width: 500px;
 }
 
-.game-project {
-  margin-top: 90px;
+.second-project {
+  display: flex;
+  flex-direction: column;
 }
 
+
+@media (min-width: 700px) {
+  .projects {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1000px) {
+  .project-para {
+    margin: 20px 50px 20px 50px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .project-image {
+    width: 400px;
+    height: 300px;
+  }
+  .project-image2 {
+    width: 400px;
+    height: 300px;
+  }
+  .project-text h2 {
+    margin-bottom: 100px;
+  }
+}
 
 /* Footer Section */
 
