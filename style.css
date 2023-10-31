@@ -101,7 +101,7 @@ strong {
   font-size: 26px;
   padding: 25px 0px;
   font-family: 'Zilla Slab', serif;
-  text-shadow: 3px 3px 3px #4a5759;
+  text-shadow: 3px 2px 2px #4a5759;
 }
 
 .nav-menu {
@@ -218,7 +218,7 @@ strong {
 
 .intro-text span {
   font-size: 16px;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 @media (min-width: 600px) {
@@ -430,7 +430,7 @@ strong {
 
 .future-images {
   margin-top: 40px;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
   display: flex;
   flex-direction: row;
 }
@@ -500,6 +500,112 @@ strong {
     margin-bottom: 250px;
   }
 }
+
+
+/* Projects Section */
+
+.project-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+  margin-top: 30px;
+}
+
+.project-text h2 {
+  font-size: 40px;
+  margin-bottom: 55px;
+  color: #576f72;
+  text-align: center;
+  text-decoration: overline underline;
+  text-underline-offset: 15px;
+}
+
+
+.project-title {
+  font-size: 18px;
+  margin-bottom: 35px;
+  color: #576f72;
+  text-align: center;
+  font-family: 'Merriweather', sans-serif;
+}
+
+.project-title::after {
+  content: '';
+  width: 15%;
+  height: 2px;
+  background: #576f72;
+  display: block;
+  margin: auto;
+}
+
+.game-title::after {
+  width: 9%;
+}
+
+.project-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 300px;
+  height: 200px;
+  border-radius: 30px;
+}
+
+.project-image2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 300px;
+  height: 200px;
+  border-radius: 30px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.fa-link {
+  color: #eee;
+  background-color: #4a5759;
+  padding: 8px;
+  border-radius: 250px;
+  font-size: 16px;
+}
+
+.fa-github {
+  color: #eee;
+  background-color: #4a5759;
+  padding: 6px;
+  border-radius: 250px;
+  margin-left: 10px;
+  font-size: 21px;
+}
+
+.icons a {
+  transition: all 0.5s;
+}
+
+.icons a:hover {
+  opacity: 0.5;
+}
+
+
+.project-para {
+  margin-top: 20px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.game-project {
+  margin-top: 90px;
+}
+
 
 /* Footer Section */
 
