@@ -612,16 +612,51 @@ strong {
   flex-direction: column;
 }
 
+.website-link a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.website-link a:hover {
+  color: #4a5759;
+  font-size: 17px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.website-link a:visited {
+  color: #576f72;
+}
 
 @media (min-width: 700px) {
   .projects {
     flex-direction: row;
+  }
+  .second-project {
+    flex-direction: row;
+    margin-top: 40px;
+  }
+  .website-link a {
+    font-size: 18px;
+  }
+  .website-link a:hover {
+    font-size: 19px;
   }
 }
 
 @media (min-width: 1000px) {
   .project-para {
     margin: 20px 50px 20px 50px;
+  }
+  .website-link a {
+    font-size: 20px;
+  }
+  .website-link a:hover {
+    font-size: 21px;
   }
 }
 
@@ -643,6 +678,6 @@ strong {
 
 .footer {
   background: #576f72;
-  margin-top: 100px;
+  margin-top: 150px;
   padding-bottom: 500px;
 }
