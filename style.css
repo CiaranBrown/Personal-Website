@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #e4dccf;
   line-height: 1.5;
@@ -104,6 +108,10 @@ strong {
   text-shadow: 3px 3px 3px #4a5759;
 }
 
+#logo a {
+  color: #F0EBE3;
+}
+
 .nav-menu {
   display: flex;
   justify-content: center;
@@ -116,9 +124,13 @@ strong {
   padding: 0px 13px;
   font-size: 12px;
   cursor: pointer;
-  color: #fff;
+  color: #F0EBE3;
   text-shadow: 2px 4px 6px #4a5759;
   display: inline-block;
+}
+
+.nav-item a {
+  color: #F0EBE3;
 }
 
 .nav-item:hover {
@@ -127,6 +139,13 @@ strong {
   transition: .4s linear;
 }
 
+.nav-item a:active {
+  color: #F0EBE3;
+  box-shadow: none;
+}
+
+
+/* Navigation Bar Media Queries */
 
 @media (min-width: 600px) {
   #logo {
@@ -161,6 +180,7 @@ strong {
     padding: 0px 25px;
   }
 }
+
 
 /* Introduction Section */
 
@@ -220,6 +240,9 @@ strong {
   font-size: 16px;
   font-weight: 700;
 }
+
+
+/* Introduction Section Media Queries */
 
 @media (min-width: 600px) {
   .intro-section {
@@ -289,18 +312,19 @@ strong {
   }
 }
 
-/* About Section */
+
+/* About Me Section */
 
 .about-section {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 20px;
-  margin-top: 30px;
 }
 
 .about-text h2 {
   font-size: 40px;
+  margin-top: 30px;
   margin-bottom: 35px;
   color: #576f72;
   text-align: center;
@@ -353,9 +377,15 @@ strong {
   border: #5a6b8d 3px solid;
 }
 
+
+/* About Me Section Media Queries */
+
 @media (min-width: 700px) {
   .about-image2 {
     display: flex;
+  }
+  .about-text h2 {
+    margin-top: 40px;
   }
 }
 
@@ -365,6 +395,9 @@ strong {
   }
   .about-image2 {
     box-shadow: 14px 14px 9px #4a5759;
+  }
+  .about-text h2 {
+    margin-top: 50px;
   }
 }
 
@@ -400,18 +433,18 @@ strong {
 }
 
 
-/* Future Section */
+/* Future Career Section */
 
 .future-section {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 20px;
-  margin-top: 30px;
 }
 
 .future-text h2 {
   font-size: 40px;
+  margin-top: 30px;
   margin-bottom: 35px;
   color: #576f72;
   text-align: center;
@@ -422,7 +455,7 @@ strong {
 .future-paras {
   max-width: 1200px;
   background-color: #F0EBE3;
-  padding: 40px;
+  padding: 30px 40px;
   border-radius: 20px;
   font-size: 15px;
   margin-top: 10px;
@@ -455,9 +488,15 @@ strong {
   border: #5a6b8d 3px solid;
 }
 
+
+/* Future Career Media Queries */
+
 @media (min-width: 700px) {
   .future-image2 {
     display: flex;
+  }
+  .future-text h2 {
+    margin-top: 40px;
   }
 }
 
@@ -467,6 +506,9 @@ strong {
   }
   .future-image2 {
     box-shadow: 14px 14px 9px #4a5759;
+  }
+  .future-text h2 {
+    margin-top: 50px;
   }
 }
 
@@ -509,11 +551,11 @@ strong {
   justify-content: center;
   align-items: center;
   margin: 25px;
-  margin-top: 30px;
 }
 
 .project-text h2 {
   font-size: 40px;
+  margin-top: 30px;
   margin-bottom: 55px;
   color: #576f72;
   text-align: center;
@@ -632,9 +674,15 @@ strong {
   color: #576f72;
 }
 
+
+/* Projects Media Queries */
+
 @media (min-width: 700px) {
   .projects {
     flex-direction: row;
+  }
+  .project-text h2 {
+    margin-top: 40px;
   }
   .second-project {
     flex-direction: row;
@@ -649,6 +697,9 @@ strong {
 }
 
 @media (min-width: 1000px) {
+  .project-text h2 {
+    margin-top: 50px;
+  }
   .project-para {
     margin: 20px 50px 20px 50px;
   }
@@ -675,7 +726,7 @@ strong {
 }
 
 
-/* Footer Section */
+/* Contact / Footer Section */
 
 footer {
   background: #576f72;
@@ -737,4 +788,5 @@ footer {
 }
 
 
+/* Contact / Footer Section Media Queries */
 
