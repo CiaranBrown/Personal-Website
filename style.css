@@ -101,7 +101,7 @@ strong {
   font-size: 26px;
   padding: 25px 0px;
   font-family: 'Zilla Slab', serif;
-  text-shadow: 3px 2px 2px #4a5759;
+  text-shadow: 3px 3px 3px #4a5759;
 }
 
 .nav-menu {
@@ -680,7 +680,7 @@ strong {
 footer {
   background: #576f72;
   width: 100%;
-  height: 600px;
+  height: 400px;
   margin-top: 100px;
 }
 
@@ -689,6 +689,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  border-bottom: 1px solid #F0EBE3;
 }
 
 .footer-content h3 {
@@ -717,6 +718,22 @@ footer {
   color: #F0EBE3;
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
+}
+
+.social-link a:hover {
+  color: #7d9d9c;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-bottom p {
+  color: #F0EBE3;
+  font-size: 12px;
+  margin: 15px;
 }
 
 
