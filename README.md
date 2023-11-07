@@ -5,8 +5,8 @@ This website has been split into 5 main sections:
 * Introduction section - welcoming you to my site;
 * About Me section - get to know me better;
 * Future Career section - my current coding journey and future goals;
-* Projects - look over my coding projects and pathways;
-* Contact - get in touch with me;
+* Projects section - look over my coding projects and pathways;
+* Contact section - get in touch with me;
 
 Built using Visual Studio Code with:
 * HTML 
@@ -17,6 +17,7 @@ Some tools which has helped me in my design process:
 * [Colour Hunt](https://colorhunt.co/) - colour pallete theme;
 * [Google Fonts](https://fonts.google.com/) - typography;
 * [Font Awesome](https://fontawesome.com/) -  icons for socials and contact;
+
 
 [Personal Website | Ciaran Brown](https://ciaranbrown.github.io/Personal-Website/)
 - - - 
